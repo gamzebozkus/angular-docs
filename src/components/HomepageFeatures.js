@@ -4,18 +4,22 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'My Website',
+    Svg: require('../../static/img/undraw_figure.svg').default,
+    secondParagraph:(<>
+    First  </>),
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
-      </>
+    <p>this is my page</p>   </>
     ),
   },
   {
     title: 'Focus on What Matters',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    secondParagraph:(<>
+      Two  </>),
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -26,16 +30,18 @@ const FeatureList = [
   {
     title: 'Powered by React',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    secondParagraph:(<>
+     Third  </>),
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
+        Very nice your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, secondParagraph}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -44,6 +50,7 @@ function Feature({Svg, title, description}) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <p>{secondParagraph}</p>
       </div>
     </div>
   );

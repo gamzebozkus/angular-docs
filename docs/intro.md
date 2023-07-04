@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
@@ -12,6 +12,22 @@ Let's discover **Docusaurus in less than 5 minutes**.
 Get started by **creating a new site**.
 
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+
+
+## Örnek Resim
+
+
+<p>This website contains our documentation.</p>
+
+![image](/img/logo.png)
+
+<div class="alt-alta-resimler">
+<img src="/img/logo.png" alt="image" width="50" height="50" />
+
+
+<img src="https://cpmr-islands.org/wp-content/uploads/sites/4/2019/07/Test-Logo-Small-Black-transparent-1-400x400.png" alt="image" width="100" height="100" />
+
+</div>
 
 ## Generate a new site
 
